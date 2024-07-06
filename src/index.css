@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Dana-Medium';
+    src: url(/fonts/Dana/Dana-Medium.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Dana-Regular';
+    src: url(/fonts/Dana/Dana-Regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Dana-Bold';
+    src: url(/fonts/Dana/Dana-Bold.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Dana-Light';
+    src: url(/fonts/Dana/Dana-Light.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Morabba-Medium';
+    src: url(/fonts/Morabba/Morabba-Medium.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Morabba-Bold';
+    src: url(/fonts/Morabba/Morabba-Bold.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Morabba-Regular';
+    src: url(/fonts/Morabba/Morabba-Regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Morabba-Light';
+    src: url(/fonts/Morabba/Morabba-Light.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Poppins-Medium';
+    src: url(/fonts/Poppins/Poppins-Medium.ttf) format('woff2');
+  }
+  @font-face {
+    font-family: 'Poppins-Regular';
+    src: url(/fonts/Poppins/Poppins-Regular.ttf) format('woff2');
+  }
+  @font-face {
+    font-family: 'Poppins-Bold';
+    src: url(/fonts/Poppins/Poppins-Bold.ttf) format('woff2');
+  }
+  @font-face {
+    font-family: 'Poppins-Light';
+    src: url(/fonts/Poppins/Poppins-Light.ttf) format('woff2');
+  }
+  @font-face {
+    font-family: 'IRANSansX-Medium';
+    src: url(/fonts/IranSansX/IRANSansX-Medium.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'IRANSansX-Regular';
+    src: url(/fonts/IranSansX/IRANSansX-Regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'IRANSansX-Bold';
+    src: url(/fonts/IranSansX/IRANSansX-Bold.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'IRANSansX-Light';
+    src: url(/fonts/IranSansX/IRANSansX-Light.woff2) format('woff2');
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(231 229 228 / var(--tw-bg-opacity));
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  /* border-radius: 3px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
