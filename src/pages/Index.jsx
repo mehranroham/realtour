@@ -1,9 +1,9 @@
-import ContentContainer from '../components/templates/ui/ContentContainer';
+import ContentContainer from '../components/ui/ContentContainer';
 
 export default function Index() {
   return (
     <ContentContainer>
-      <div className='font-Dana-Regular text-slate-300'>
+      <div>
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
         از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
         سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
